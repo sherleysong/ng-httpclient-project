@@ -1,0 +1,19 @@
+{
+    "resultCode": 0,
+    "resultMsg": "success",
+    "data": [{
+            "id": 1,
+            "name": "product1",
+            "price": 10000
+        },
+        {
+            "id": 2,
+            "name": "product2",
+            "price": 20000
+        }, {
+            "id": 3,
+            "name": "product3",
+            "price": 30000
+        }
+    ]
+}
