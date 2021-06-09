@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
-详细解说移步：https://editor.csdn.net/md?articleId=117745920
+详细解说移步：https://blog.csdn.net/sherleysong/article/details/117745920
 
 
 ## 1. 本项目实现思路摘要
