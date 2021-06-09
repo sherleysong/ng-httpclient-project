@@ -1,7 +1,6 @@
 <p>product works!</p>
 <div *ngFor="let item of productList">
- <p> name: {{item.name}} </p>
- <p> price: {{item.price}} </p>
-
- <button (click)="viewDetail(item.id)"> 查看详情 </button>
+    <p> name: {{item.name}} </p>
+    <p> price: {{item.price}} </p>
 </div>
+<button (click)="addProduct()"> 添加一个服务 </button>

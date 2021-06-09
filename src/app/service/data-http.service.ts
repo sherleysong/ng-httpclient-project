@@ -15,17 +15,11 @@ export class dataHttpService {
                 return this.http.get(api.mockURL);
             } else {
                 if (!header || (header && !header.headers)) {
-                    const headers = new HttpHeaders()
-                        .set("Authorization", this.getCookie("token"))
-                    header = {
-                        headers: headers,
-                    };
+                    const headers = new HttpHeaders().set("Authorization", this.getCookie("token"))
+                    header = { headers: headers, };
                 }
-
                 const totalURL = api.url;
-                const totalURLWithParams =
-                    totalURL + this.getUrl(param);
-
+                const totalURLWithParams = totalURL + this.getUrl(param);
                 if (api.method.toLocaleLowerCase() === "post") {
                     return this.http.post(totalURL, param, header);
                 } else if (api.method.toLocaleLowerCase() === "put") {

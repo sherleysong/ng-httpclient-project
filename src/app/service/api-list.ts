@@ -9,8 +9,8 @@ export const apiList = {
     mockURL: "./assets/mock/productList.json",
   },
   // 真实接口
-  saveProduct: {
-    url: "/product/save",
+  addProduct: {
+    url: "/product/add",
     method: "post",
     description: "save product info",
     mock: false,
